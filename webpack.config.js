@@ -48,3 +48,7 @@ module.exports = (env, argv) => {
     },
   };
 };
+
+
+// the project was working just fine until I added webpack and changed around the package.json to match previous projects. Still attempting to figure out what cuased the issue.
+//likely related to the way webpack.config.js is configured. 
