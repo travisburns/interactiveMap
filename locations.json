@@ -1,0 +1,148 @@
+{
+"locations" : [
+    { 
+        "Name": "GoldGlimpseBridge", 
+    "XCoord": -0.18264770507812503, 
+    "YCoord": 0.005493164054094371, 
+    "image": "assets/goldenbridge.png", 
+    "region": "GlimmerIslands", 
+    "Type": "bridge", 
+    "stats": 
+    
+    {
+        "population": 500, 
+        "magic": 100, 
+        "tech": 2500, 
+        "money": 10000} 
+    },
+
+    { 
+    "Name": "NietzheEmpireSupplyDepot", 
+    "XCoord": -0.12634277343750003, 
+    "YCoord": 0.02815246468751837, 
+    "image": "assets/NietzheSupply.png", 
+    "region": "GlimmerIslands", 
+    "Type": "city", 
+    "stats": 
+    
+    {
+        "population": 2500, 
+        "magic": 1500, 
+        "tech": 10000, 
+        "money": 100000} 
+    },
+
+    { 
+        "Name": "GoldMoistureMines", 
+        "XCoord": 0.06866455078125001, 
+        "YCoord": 0.14144883092742105, 
+        "image": "assets/GoldMoistureMines.png", 
+        "region": "GlimmerIslands", 
+        "Type": "mine", 
+        "stats": 
+        
+        {
+            "population": 2000, 
+            "magic": 500, 
+            "tech": 3500, 
+            "money": 1000000} 
+        },
+    
+
+    
+
+        { 
+            "Name": "LexacTreasureSite", 
+        "XCoord": -0.33267974853515625, 
+        "YCoord": 0.13458239577451545, 
+        "image": "assets/lexacTreasureSite.png", 
+        "region": "LexacWinds", 
+        "Type": "treasure", 
+        "stats": 
+        
+        {
+            "population": 0, 
+            "magic": 500, 
+            "tech": 0, 
+            "money": 0} 
+        },
+    
+        { 
+        "Name": "OldBattleRuins", 
+        "XCoord": -0.3862380981445313, 
+        "YCoord": 0.058879841931490894, 
+        "image": "assets/LexacBattleRuins.png", 
+        "region": "LexacWinds", 
+        "Type": "ruins", 
+        "stats": 
+        
+        {
+            "population": 35, 
+            "magic": 500, 
+            "tech": 3, 
+            "money": 100} 
+        },
+    
+        { 
+            "Name": "ForestOfTheMagicFinders", 
+            "XCoord": -0.40889739990234375, 
+            "YCoord": -0.033645627949107575, 
+            "image": "assets/ForestOfTheMagicFinders.png", 
+            "region": "LexacWinds", 
+            "Type": "forest", 
+            "stats": 
+            
+            {
+                "population": 20, 
+                "magic": 1500, 
+                "tech": 3, 
+                "money": 10} 
+            },
+            { 
+            "Name": "LexacMagicTotem", 
+            "XCoord": -0.48889043364235946, 
+            "YCoord": 0.07278440425236644, 
+            "image": "assets/ForestOfTheMagicFinders.png", 
+            "region": "LexacWinds", 
+            "Type": "sacredsite", 
+            "stats": 
+            
+            {
+                "population": 20, 
+                "magic": 1500, 
+                "tech": 3, 
+                "money": 10} 
+            },
+            { 
+                "Name": "LexacRuins", 
+                "XCoord": -0.3927579221806466, 
+                "YCoord": 0.13801561359874617, 
+                "image": "assets/ForestOfTheMagicFinders.png", 
+                "region": "LexacWinds", 
+                "Type": "ruins", 
+                "stats": 
+                
+                {
+                    "population": 20, 
+                    "magic": 1500, 
+                    "tech": 3, 
+                    "money": 10} 
+                },
+                { 
+                    "Name": "BattleOfEpisteme", 
+                    "XCoord": -0.4408398792826263, 
+                    "YCoord": 0.26023775268020405, 
+                    "image": "assets/ForestOfTheMagicFinders.png", 
+                    "region": "LexacWinds", 
+                    "Type": "ancientBattle", 
+                    "stats": 
+                    
+                    {
+                        "population": 20, 
+                        "magic": 1500, 
+                        "tech": 3, 
+                        "money": 10} 
+                    }
+    
+  ]
+}
