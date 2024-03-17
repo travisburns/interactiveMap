@@ -22,9 +22,7 @@ class FantasyMap {
 
         this.createClassesChart();
         // this.createFaction();  - wanted to implement a third graph displaying the factions, but could not impliment with given time
-        
-
-    }
+ }
 
 
     //initializeMap method is in charge of getting the base map information
@@ -70,7 +68,7 @@ class FantasyMap {
     // a async function used to fetch the data from the local host. 
     async fetchLocationsData() {
         try {
-            const response = await fetch('http://localhost:3000/locations');
+            const response = await fetch('http://localhost:3000/locations'); //this is supposed to be the citWeb location address to host, however was not able to get it to connect. 
             // if the data is not found that it should push a error with its status issue
             if (!response.ok) {
                 throw new Error(`Error: ${response.status} - ${response.statusText}`);
@@ -97,7 +95,7 @@ class FantasyMap {
         //set up a for each method with location and index passed as parameters
         this.locations.forEach((location, index) => {
             //the xCoord, and YCorrd, as well as type is equal to the location
-            const { XCoord, YCoord, Name, type, image } = location;
+            const { XCoord, YCoord, type } = location;
             //for testing purposes logging the markers index
             console.log('Marker index:', index);
             //the marker now equals the leafletmarker at the object values of YCood and XCoord
@@ -255,9 +253,9 @@ class FantasyMap {
         const canvasId = `donut-chart-${index}`;
         const canvas = document.getElementById(canvasId);
         
-        //essential error handling if canvasID is not found
+        //essential error handling if canvasID is not found - by default it will log an eror becuase it only returns the id once you click on the specific map location
         if (!canvas) {
-            console.error(`Canvas not found for ID: ${canvasId}`);
+            // console.log(`Canvas not found for ID: ${canvasId}`);
             return;
         }
 
@@ -336,13 +334,13 @@ class FantasyMap {
         //this very key part is shown again, where canvasId is equal to `classes-chart-` then its relative index to the classes parameter. 
         const canvasId = `classes-chart-${index}`;
         const canvas = document.getElementById(canvasId);
-        //console.log for testing purposes, wished to see if the index for classes was passed correctly. 
-        console.log(canvasId)
-        console.log(index)
-        console.log('Classes:', classes);
+        //console.log for testing purposes, wished to see if the index for classes was passed correctly. - placed as comments becuase it will be defualt pass a not found or undefined until map location clicked
+        // console.log(canvasId)
+        // console.log(index)
+        // console.log('Classes:', classes);
         //error handling if classes index was not found. 
         if (!canvas) {
-            console.error(`Canvas not found for ID: ${canvasId}`);
+            // console.error(`Canvas not found for ID: ${canvasId}`); - by default will throw a error as the map location is not clicked
             return;
         }
     
@@ -466,7 +464,7 @@ class FantasyMap {
         //locationsTab inner HTHML is set to Locations. 
         locationsTab.innerHTML=`Locations`
 
-        // Get unique location types - you want to set the spread of the new Set data at this.locations.map where location will return the location.type. Type found of course in the locations.json.
+        // Get unique location types - you want to set the spread of the new Set data at this.locations map where location will return the location.type. Type found of course in the locations.json.
         const uniqueTypes = [...new Set(this.locations.map(location => location.type))];
     
         // Create buttons for each unique location type. this will render a button for each unique location type 
@@ -515,4 +513,3 @@ class FantasyMap {
 
 //call the class FantasyMap within a constant called fantasyMap
 const fantasyMap = new FantasyMap();
-fantasyMap();
