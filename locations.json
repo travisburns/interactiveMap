@@ -1,51 +1,162 @@
 {
 "locations" : [
     { 
-        "Name": "GoldGlimpseBridge", 
+    "Name": "GoldGlimpseBridge", 
+    "id": "GoldGlimpseBridge",
+    "description": "The First Of Construction's after culivating the gold flaked trees of glimmer wood, the Gold Glimpse Bridge is made from gold and allows a solid and tightly guarded acess point into the islands of glimmer wood.",
     "XCoord": -0.18264770507812503, 
     "YCoord": 0.005493164054094371, 
     "image": "assets/goldenbridge.png", 
     "region": "GlimmerIslands", 
-    "Type": "bridge", 
+    "type": "bridge", 
+
     "stats": 
     
     {
         "population": 500, 
         "magic": 100, 
         "tech": 2500, 
-        "money": 10000} 
+        "money": 10000,
+        "governance": "Nietzhe",
+        "military": "5000",
+        "resource": "GoldFlake",
+        "peaceLevel": "WellDefended"
+    },
+
+
+    "species": {
+        "uhkraa": 0,
+        "Lexac": 10,
+        "human": 70,
+        "episteme": 15,
+        "WolfFrye": 5
+    },
+
+    "classes": {
+        "swordsmen": 20,
+        "mage": 20,
+        "magicTech": 20,
+        "trader": 20,
+        "politician": 20
+
+    },
+
+    
+    "faction": {
+        "NietzheEmpire": 20,
+        "TradeEmpire": 20,
+        "EliteFamilies": 20,
+        "FreeSiruk": 20,
+        "miners": 20
+
+    }
+
+    
+    
+    
     },
 
     { 
     "Name": "NietzheEmpireSupplyDepot", 
+    "description": "An expansive, magical storage facility adorned with buildings crafted entirely from pure gold. Serving as the supply cache for the Nietzhe Empire, it houses their prized possessions, gathering and safeguarding precious items.",
     "XCoord": -0.12634277343750003, 
     "YCoord": 0.02815246468751837, 
     "image": "assets/NietzheSupply.png", 
     "region": "GlimmerIslands", 
-    "Type": "city", 
+    "type": "city", 
     "stats": 
     
     {
         "population": 2500, 
         "magic": 1500, 
         "tech": 10000, 
-        "money": 100000} 
+        "money": 100000,
+        "governance": "Nietzhe",
+        "military": "5000",
+        "resource": "GoldFlake",
+        "peaceLevel": "WellDefended"
     },
+    
+    "species": {
+        "uhkraa": 10,
+        "Lexac": 30,
+        "human": 50,
+        "episteme": 10,
+        "WolfFrye": 5
+    },
+    
+    "classes": {
+        "swordsmen": 20,
+        "mage": 40,
+        "magicTech": 40,
+        "trader": 20,
+        "politician": 0
+
+    },
+
+    
+    "faction": {
+        "NietzheEmpire": 30,
+        "TradeEmpire": 20,
+        "EliteFamilies": 30,
+        "FreeSiruk": 0,
+        "miners": 20
+
+    }
+
+
+
+    }, 
 
     { 
         "Name": "GoldMoistureMines", 
+        "description": "Outside of GlimmerWood, the mines produce gold magically from the moisture of the caverns. These enchanted caverns serve as the lifeblood of the empire, endlessly yielding precious wealth through their magical prowess",
         "XCoord": 0.06866455078125001, 
         "YCoord": 0.14144883092742105, 
         "image": "assets/GoldMoistureMines.png", 
         "region": "GlimmerIslands", 
-        "Type": "mine", 
+        "type": "mine", 
         "stats": 
         
         {
-            "population": 2000, 
-            "magic": 500, 
-            "tech": 3500, 
-            "money": 1000000} 
+            "population": 1000, 
+            "magic": 1000, 
+            "tech": 4500, 
+            "money": 5000000,
+            "governance": "Nietzhe",
+            "military": 8000,
+            "resource": "GoldFlake",
+            "peaceLevel": "WellDefended"
+        },
+        "species": {
+            "uhkraa": 5,
+            "Lexac": 20,
+            "human": 60,
+            "episteme": 10,
+            "WolfFrye": 5
+        },
+        
+        "classes": {
+            "swordsmen": 30,
+            "mage": 10,
+            "magicTech": 40,
+            "trader": 20,
+            "miner": 40
+    
+        },
+
+    
+        "faction": {
+            "NietzheEmpire": 60,
+            "TradeEmpire": 20,
+            "EliteFamilies": 30,
+            "FreeSiruk": 5,
+            "miners": 80
+    
+        }
+
+
+
         },
     
 
@@ -53,96 +164,1032 @@
 
         { 
             "Name": "LexacTreasureSite", 
+            "description": "Hidden within the tangled overgrowth lies a Lexac ruin, sealed tight by potent magic and cunning traps. Despite the allure of untold treasures within, the ruins remain an impenetrable enigma, repelling all who dare to unlock its secrets. Countless ruin looters have tried and failed, leaving the mysteries of the past untouched by mortal hands.",
         "XCoord": -0.33267974853515625, 
         "YCoord": 0.13458239577451545, 
-        "image": "assets/lexacTreasureSite.png", 
+        "image": "assets/lexactreasuresite.png", 
         "region": "LexacWinds", 
-        "Type": "treasure", 
+        "type": "treasure", 
         "stats": 
         
         {
             "population": 0, 
-            "magic": 500, 
+            "magic": 2000, 
             "tech": 0, 
-            "money": 0} 
+            "money": 0,
+            "governance": "ungoverned",
+            "military": 0,
+            "resource": "treasure",
+            "peaceLevel": "hostile"
+        },
+        "species": {
+            "magicfinders": 20,
+            "Lexac": 10,
+            "human": 10,
+            "episteme": 0,
+            "WolfFrye": 0
+        },
+        
+        "classes": {
+            "swordsmen": 20,
+            "mage": 40,
+            "magicTech": 20,
+            "trader": 0,
+            "politician": 0
+    
+        },
+
+    
+        "faction": {
+            "NietzheEmpire": 0,
+            "TradeEmpire": 20,
+            "EliteFamilies": 0,
+            "FreeSiruk": 0,
+            "MuseumOfHistory": 40
+    
+        }
+
+
+
+
         },
     
         { 
         "Name": "OldBattleRuins", 
+        "description": "The site of a momentous clash between the Episteme and Lexac civilizations now stands as a somber memorial and grave site. Here, the echoes of history mingle with the whispers of fallen warriors, their sacrifices immortalized in the solemn tranquility of remembrance.",
         "XCoord": -0.3862380981445313, 
         "YCoord": 0.058879841931490894, 
         "image": "assets/LexacBattleRuins.png", 
         "region": "LexacWinds", 
-        "Type": "ruins", 
+        "type": "ruins", 
         "stats": 
         
         {
             "population": 35, 
             "magic": 500, 
             "tech": 3, 
-            "money": 100} 
+            "money": 100,
+            "governance": "ungoverned",
+            "military": "100",
+            "resource": "none",
+            "peaceLevel": "nonHostile"
+        },
+        "species": {
+            "uhkraa": 0,
+            "Lexac": 30,
+            "human": 10,
+            "episteme": 5,
+            "WolfFrye": 5
+        },
+        "classes": {
+            "swordsmen": 20,
+            "mage": 20,
+            "magicTech": 20,
+            "trader": 2,
+            "politician": 0
+    
+        } ,
+
+    
+        "faction": {
+            "NietzheEmpire": 0,
+            "TradeEmpire": 20,
+            "EliteFamilies": 0,
+            "FreeSiruk": 0,
+            "MuseumOfHistory": 20
+    
+        } 
         },
     
         { 
             "Name": "ForestOfTheMagicFinders", 
+            "description": "Deep within the forest dwells the elusive MagicFinder, a majestic deerlike creature sought after by the early Lexac for its innate ability to locate plants rich in magical residue. Revered as companions and allies, these creatures played a vital role in the empire's pursuit of mystical energies.",
             "XCoord": -0.40889739990234375, 
             "YCoord": -0.033645627949107575, 
             "image": "assets/ForestOfTheMagicFinders.png", 
             "region": "LexacWinds", 
-            "Type": "forest", 
+            "type": "forest", 
             "stats": 
             
             {
                 "population": 20, 
                 "magic": 1500, 
                 "tech": 3, 
-                "money": 10} 
+                "money": 10,
+                "governance": "ungoverned",
+                "military": 0,
+                "resource": "Magic Fur",
+                "peaceLevel": "Not Defended"
+            },
+            "species": {
+                "uhkraa": 10,
+                "Lexac": 30,
+                "human": 10,
+                "episteme": 5,
+                "WolfFrye": 5
+            },
+            
+            
+
+
+            "classes": {
+                "swordsmen": 10,
+                "mage": 10,
+                "magicTech": 20,
+                "trader": 5,
+                "explorer": 20
+        
+            },
+
+    
+            "faction": {
+                "NietzheEmpire": 0,
+                "TradeEmpire": 2,
+                "EliteFamilies": 0,
+                "FreeSiruk": 0,
+                "MuseumOfHistory": 20
+        
+            }
+
+
+
             },
             { 
             "Name": "LexacMagicTotem", 
+            "description": "Once a mighty magical conduit fueling the Lexac Empire's power, now a dormant totem lies silent, its potential untapped. Enigmatic and inert, it beckons seekers to unravel its mysteries, yearning to unlock the dormant energies that once pulsed through its ancient veins.",
             "XCoord": -0.48889043364235946, 
             "YCoord": 0.07278440425236644, 
-            "image": "assets/ForestOfTheMagicFinders.png", 
+            "image": "assets/lexactotem.png", 
             "region": "LexacWinds", 
-            "Type": "sacredsite", 
+            "type": "sacredsite", 
             "stats": 
             
             {
                 "population": 20, 
                 "magic": 1500, 
                 "tech": 3, 
-                "money": 10} 
+                "money": 10,
+                "governance": "ungoverned",
+                "military": "200",
+                "resource": "Magic Residue",
+                "peaceLevel": "Not Defended"
             },
+            "species": {
+                "uhkraa": 10,
+                "Lexac": 30,
+                "human": 10,
+                "episteme": 5,
+                "WolfFrye": 5
+            },
+            
+            
+
+            "classes": {
+                "swordsmen": 20,
+                "mage": 20,
+                "magicTech": 20,
+                "trader": 20,
+                "Explorer": 20
+        
+            },
+
+    
+            "faction": {
+                "NietzheEmpire": 20,
+                "TradeEmpire": 10,
+                "EliteFamilies": 10,
+                "FreeSiruk": 0,
+                "MuseumOfHistory": 20
+        
+            }
+
+
+
+
+            },
+
+
+
+
+
+
             { 
                 "Name": "LexacRuins", 
+                "description": "Once a thriving metropolis of the ancient Lexac civilization, now lies an enigmatic ruin cloaked in mystery. The air crackles with potent magical residue, whispering tales of a bygone era and secrets lost to the sands of time.",
                 "XCoord": -0.3927579221806466, 
                 "YCoord": 0.13801561359874617, 
-                "image": "assets/ForestOfTheMagicFinders.png", 
+                "image": "assets/lexacruins.png", 
                 "region": "LexacWinds", 
-                "Type": "ruins", 
+                "type": "ruins", 
                 "stats": 
                 
                 {
                     "population": 20, 
                     "magic": 1500, 
                     "tech": 3, 
-                    "money": 10} 
+                    "money": 10,
+                    "governance": "ungoverned",
+                    "military": "0",
+                    "resource": "Marble",
+                    "peaceLevel": "Not Defended"
+                },
+                "species": {
+                    "uhkraa": 10,
+                    "Lexac": 30,
+                    "human": 10,
+                    "episteme": 5,
+                    "WolfFrye": 5
+                },
+                
+                "classes": {
+                    "swordsmen": 20,
+                    "mage": 20,
+                    "magicTech": 20,
+                    "trader": 20,
+                    "miner": 20
+            
+                },
+
+    
+                "faction": {
+                    "NietzheEmpire": 20,
+                    "TradeEmpire": 20,
+                    "EliteFamilies": 10,
+                    "FreeSiruk": 0,
+                    "miners": 10
+            
+                }
+
+
                 },
                 { 
                     "Name": "BattleOfEpisteme", 
+                    "description": "A solemn testament to ages past, the battlefield where the ancient Episteme Empire clashed with the Nietzhe Empire now lies shrouded in antiquity. Amongst its hallowed grounds, countless graves bear witness to the valor and sacrifice of warriors long gone, their spirits forever intertwined with the echoes of history.",
                     "XCoord": -0.4408398792826263, 
                     "YCoord": 0.26023775268020405, 
-                    "image": "assets/ForestOfTheMagicFinders.png", 
+                    "image": "assets/battlegrave.png", 
                     "region": "LexacWinds", 
-                    "Type": "ancientBattle", 
+                    "type": "ancientBattle", 
                     "stats": 
                     
                     {
                         "population": 20, 
                         "magic": 1500, 
                         "tech": 3, 
-                        "money": 10} 
+                        "money": 10,
+                        "governance": "ungoverned",
+                        "military": "0",
+                        "resource": "none",
+                        "peaceLevel": "Slightly Defended"
+                    },
+                    "species": {
+                        "uhkraa": 20,
+                        "Lexac": 40,
+                        "human": 10,
+                        "episteme": 5,
+                        "WolfFrye": 5
+                    },
+                    "classes": {
+                        "swordsmen": 20,
+                        "mage": 20,
+                        "magicTech": 5,
+                        "trader": 10,
+                        "politician": 0
+                
+                    },
+
+    
+                    "faction": {
+                        "NietzheEmpire": 30,
+                        "TradeEmpire": 20,
+                        "EliteFamilies": 0,
+                        "FreeSiruk": 0,
+                        "MuseumOfHistory": 20
+                
                     }
+                    
+                    
+                    
+                    },
+
+                    { 
+                        "Name": "Old hag Swamp", 
+                        "description": "Once a serene marshland, now a festering bog corrupted by the malevolent touch of the Chaos Flame. Within its murky depths resides a coven of witches, once peaceful practitioners twisted by the flames of chaos. Their once benevolent intentions now obscured by nefarious plots, they scheme in the shadows, wielding their dark magic to further their sinister agenda.",
+                        "XCoord": -0.5520629882812501, 
+                        "YCoord":  0.02059936479060312, 
+                        "image": "assets/ForestOfTheMagicFinders.png", 
+                        "region": "darkGodForest", 
+                        "type": "swamp", 
+                        "stats": 
+                        
+                        {
+                            "population": 1000, 
+                            "magic": 1500, 
+                            "tech": 3, 
+                            "money": 10,
+                            "governance": "Nietzhe",
+                            "military": 0,
+                            "resource": "algae",
+                            "peaceLevel": "Hostile"
+                        },
+                        "species": {
+                            "uhkraa": 10,
+                            "undead": 40,
+                            "human": 10,
+                            "episteme": 0,
+                            "corrupted": 40
+                        },
+                        "classes": {
+                            "swordsmen": 0,
+                            "witch": 100,
+                            "magicTech": 0,
+                            "trader": 0,
+                            "politician": 0
+                    
+                        },
+
+    
+                        "faction": {
+                            "NietzheEmpire": 2,
+                            "TradeEmpire": 10,
+                            "EliteFamilies": 0,
+                            "FreeSiruk": 0,
+                            "ChaosFlame": 70
+                    
+                        }
+                        
+                        
+                        
+                        },
+
+                        { 
+                            "Name": "Butchers Forest", 
+                            "description": "Within the depths of a sinister forest looms the fearsome presence of the Butcher, a colossal creature forged by the dark arts of the Chaos Flame Wiccan. A looming specter of terror, its very existence serves as a harrowing reminder of the coven's malevolent grip, spreading fear and darkness throughout the land.",
+                            "XCoord": -0.6529998779296876, 
+                            "YCoord":  0.05424498701350365, 
+                            "image": "assets/butchersForest.png", 
+                            "region": "darkGodForest", 
+                            "type": "forest", 
+                            "stats": 
+                            
+                            {
+                                "population": 210, 
+                                "magic": 1500, 
+                                "tech": 3, 
+                                "money": 10,
+                                "governance": "ungoverned",
+                                "military": 0,
+                                "resource": "Flame Wood",
+                                "peaceLevel": "Hostile"
+                            },
+                            "species": {
+                                "uhkraa": 20,
+                                "undead": 30,
+                                "witch": 40,
+                                "episteme": 5,
+                                "WolfFrye": 5
+                            },
+                            "classes": {
+                                "swordsmen": 0,
+                                "witch": 50,
+                                "magicTech": 0,
+                                "trader": 0,
+                                "undead": 50
+                        
+                            },
+    
+        
+                            "faction": {
+                                "NietzheEmpire": 0,
+                                "TradeEmpire": 0,
+                                "EliteFamilies": 0,
+                                "FreeSiruk": 0,
+                                "ChaosFlame": 100
+                        
+                            }
+                            
+                            
+                            
+                            },
+
+                            { 
+                            "Name": "Chaos Flame Wiccan", 
+                            "description": "The stronghold of the Chaos Flame Wiccan, a notorious coven of flame-wielding witches, stands as a formidable bastion of dark power. Revered and feared across the world, their malevolent influence has tainted countless realms, spreading chaos and destruction wherever their flames flicker.",
+                            "XCoord": -0.6832122802734376, 
+                            "YCoord":   -0.08445736687537725, 
+                            "image": "assets/chaosflame.png", 
+                            "region": "darkGodForest", 
+                            "type": "forest", 
+                            "stats": 
+                            
+                            {
+                                "population": 500, 
+                                "magic": 1500, 
+                                "tech": 3, 
+                                "money": 10,
+                                "governance": "ChaosFlame",
+                                "military": "15000",
+                                "resource": "Flame Wood",
+                                "peaceLevel": "WellDefended"
+                            },
+                            "species": {
+                                "Witch": 20,
+                                "undead": 30,
+                                "corrupt": 40,
+                                "episteme": 5,
+                                "WolfFrye": 5
+                            },
+                            "classes": {
+                                "swordsmen": 0,
+                                "witch": 100,
+                                "magicTech": 0,
+                                "trader": 0,
+                                "politician": 0
+                        
+                            },
+    
+        
+                            "faction": {
+                                "NietzheEmpire": 0,
+                                "TradeEmpire": 0,
+                                "EliteFamilies": 0,
+                                "FreeSiruk": 0,
+                                "ChaosFlame": 100
+                        
+                            }
+                            
+                            
+                            
+                            },
+
+
+                            { 
+                            "Name": "Terror Fang Vampires", 
+                            "description": "Amidst the eerie forest, twisted crimson trees bear witness to the corruption wrought by the Chaos Flame Wiccan. Here, hostile vampiric beings, tainted by its malevolence, stalk their prey with bloodlust reflected in the violent hue of the foliage, casting an ominous crimson veil over the land.",
+                            "XCoord": -0.6234741210937501, 
+                            "YCoord":   -0.013732910024756182, 
+                            "image": "assets/terrorfang.png", 
+                            "region": "darkGodForest", 
+                            "type": "forest", 
+                            "stats": 
+                            
+                            {
+                                "population": 200, 
+                                "magic": 1500, 
+                                "tech": 3, 
+                                "money": 10,
+                                "governance": "ChaosFlame",
+                                "military": 200,
+                                "resource": "none",
+                                "peaceLevel": "Hostile"
+                            },
+                            "species": {
+                                "uhkraa": 0,
+                                "undead": 30,
+                                "human": 0,
+                                "episteme": 0,
+                                "vampire": 70
+                            },
+                            "classes": {
+                                "swordsmen": 30,
+                                "witch": 50,
+                                "magicTech": 20,
+                                "trader": 0,
+                                "politician": 0
+                        
+                            },
+    
+        
+                            "faction": {
+                                "NietzheEmpire": 0,
+                                "TradeEmpire": 0,
+                                "EliteFamilies": 0,
+                                "Vampire": 50,
+                                "ChaosFlame": 50
+                        
+                            }
+                            
+                            
+                            
+                            },
+
+                            { 
+                                "Name": "destroyedCrossPath", 
+                                "description": "AF3r7P5dWxL8MxyITRMlORQNaOA2IkAFaTr4k7BUumjPtRpGDTZpl0Pb1XCO6JeDCBdp126Cgs9sMxqSjgYyRg",
+                                "XCoord": -0.68389892578125, 
+                                "YCoord":   0.10299677069976723, 
+                                "image": "assets/crosspathDestroyed.png", 
+                                "region": "darkGodForest", 
+                                "type": "ruins", 
+                                "stats": 
+                                
+                                {
+                                    "population": 0, 
+                                    "magic": 1500, 
+                                    "tech": 3, 
+                                    "money": 10,
+                                    "governance": "ungoverned",
+                                    "military": 0,
+                                    "resource": "none",
+                                    "peaceLevel": "Not Defended"
+                                },
+                                "species": {
+                                    "uhkraa": 0,
+                                    "undead": 0,
+                                    "human": 0,
+                                    "episteme": 0,
+                                    "WolfFrye": 0
+                                },
+                                "classes": {
+                                    "swordsmen": 0,
+                                    "witch": 0,
+                                    "magicTech": 0,
+                                    "trader": 0,
+                                    "politician": 0
+                            
+                                },
+        
+            
+                                "faction": {
+                                    "NietzheEmpire": 2,
+                                    "TradeEmpire": 20,
+                                    "EliteFamilies": 0,
+                                    "FreeSiruk": 20,
+                                    "miners": 0
+                            
+                                }
+                                
+                                
+                                
+                                },
+
+                                { 
+                                    "Name": "ChronoPhagueForest", 
+                                    "description": "In the enigmatic forest, trees oscillate between sprouts and ancient giants, their ages in flux as the nearby Chronophague devours time. Witness the surreal dance of nature's cycle, as new life emerges only to wither into antiquity, a testament to the relentless march of time.",
+                                    "XCoord": -0.7855224609375001, 
+                                    "YCoord":   0.280150250892118, 
+                                    "image": "assets/chronophagueForest.png", 
+                                    "region": "tranquilGlowPine", 
+                                    "type": "forest", 
+                                    "stats": 
+                                    
+                                    {
+                                        "population": 0, 
+                                        "magic": 4500, 
+                                        "tech": 3, 
+                                        "money": 10,
+                                        "governance": "Nietzhe",
+                                        "military": 5000,
+                                        "resource": "ChronoGel",
+                                        "peaceLevel": "WellDefended"
+                                    },
+                                    "species": {
+                                        "uhkraa": 10,
+                                        "Leshay": 30,
+                                        "human": 60,
+                                        "episteme": 0,
+                                        "WolfFrye": 0
+                                    },
+                                    "classes": {
+                                        "swordsmen": 0,
+                                        "reasearcher": 80,
+                                        "magicTech": 20,
+                                        "trader": 0,
+                                        "politician": 0
+                                
+                                    },
+            
+                
+                                    "faction": {
+                                        "NietzheEmpire": 100,
+                                        "TradeEmpire": 0,
+                                        "EliteFamilies": 0,
+                                        "FreeSiruk": 0,
+                                        "miners": 0
+                                
+                                    }
+                                    
+                                    
+                                    
+                                    },
+
+
+                                    
+        
+                                        { 
+                                            "Name": "NietzheLabortory", 
+                                            "description": "Within the mist of Tranquil Glow Pine, exists a dedicated laboratory delves into the mysteries of the Chronophague and its time-bending abilities. Rumors speak of the laboratory's production of a unique material harvested from the nearby Chronophague, fueling their research into temporal manipulation."
+                                            ,
+                                            "XCoord": -0.880279541015625, 
+                                            "YCoord":   0.2849567109992582, 
+                                            "image": "assets/nietzheLab.png", 
+                                            "region": "tranquilGlowPine", 
+                                            "type": "forest", 
+                                            "stats": 
+                                            
+                                            {
+                                                "population": 20, 
+                                                "magic": 1500, 
+                                                "tech": 3, 
+                                                "money": 10,
+                                                "governance": "Nietzhe",
+                                                "military": 5000,
+                                                "resource": "Chronogel",
+                                                "peaceLevel": "WellDefended"
+                                            },
+                                            "species": {
+                                                "uhkraa": 10,
+                                                "Leshay": 10,
+                                                "human": 80,
+                                                "episteme": 0,
+                                                "WolfFrye": 0
+                                            },
+                                            "classes": {
+                                                "swordsmen": 0,
+                                                "researcher": 100,
+                                                "magicTech": 0,
+                                                "trader": 0,
+                                                "politician": 0
+                                        
+                                            },
+                    
+                        
+                                            "faction": {
+                                                "NietzheEmpire": 100,
+                                                "TradeEmpire": 0,
+                                                "EliteFamilies": 0,
+                                                "FreeSiruk": 0,
+                                                "miners": 0
+                                        
+                                            }
+                                            
+                                            
+                                            
+                                            },
+
+
+
+
+                                            { 
+                                            "Name": "Sadime Shrine", 
+                                            "description": "A sacred shrine stands in homage to Sadime, the god of logic, physics, and mathematics, revered by the ancient Episteme Empire. Constructed with precision and reverence, it echoes the pursuit of knowledge and enlightenment cherished by its creators.",
+                                            "XCoord": -0.13938903808593753, 
+                                            "YCoord":    0.5424418476692714, 
+                                            "image": "assets/sadimeShrine.png", 
+                                            "region": "valleyOfMoon", 
+                                            "type": "sacredSite", 
+                                            "stats": 
+                                            
+                                            {
+                                                "population": 0, 
+                                                "magic": 500, 
+                                                "tech": 1000, 
+                                                "money": 10,
+                                                "governance": "ungoverned",
+                                                "military": 0,
+                                                "resource": "Research",
+                                                "peaceLevel": "Not Defended"
+                                            },
+                                            "species": {
+                                                "uhkraa": 20,
+                                                "Lexac": 20,
+                                                "human": 10,
+                                                "episteme": 50,
+                                                "WolfFrye": 0
+                                            },
+                                            "classes": {
+                                                "swordsmen": 20,
+                                                "witch": 20,
+                                                "magicTech": 20,
+                                                "trader": 20,
+                                                "politician": 0
+                                        
+                                            },
+                    
+                        
+                                            "faction": {
+                                                "NietzheEmpire": 2,
+                                                "TradeEmpire": 20,
+                                                "EliteFamilies": 20,
+                                                "FreeSiruk": 20,
+                                                "miners": 20
+                                        
+                                            }
+                                            
+                                            
+                                            
+                                            },
+
+
+                                            { 
+                                                "Name": "UhkraaSwordsman", 
+                                                "description": "Atop the towering peak, a colossal statue surveys the Valley of the Moon, honoring an ancient swordsman of the Uhkraa Empire. Carved with reverence, it immortalizes the legendary warrior, a symbol of strength and valor from the eastern lands.",
+                                                "XCoord": -0.17784118652343753, 
+                                                "YCoord":     0.5685331504706715, 
+                                                "image": "assets/uhkrraswordsman.png", 
+                                                "region": "valleyOfMoon", 
+                                                "type": "sacredSite", 
+                                                "stats": 
+                                                
+                                                {
+                                                    "population": 0, 
+                                                    "magic": 1500, 
+                                                    "tech": 800, 
+                                                    "money": 10,
+                                                    "governance": "ungoverned",
+                                                    "military": 0,
+                                                    "resource": "none",
+                                                    "peaceLevel": "Not Defended"
+                                                },
+                                                "species": {
+                                                    "uhkraa": 10,
+                                                    "Lexac": 20,
+                                                    "human": 10,
+                                                    "episteme": 50,
+                                                    "WolfFrye": 10
+                                                },
+                                                "classes": {
+                                                    "swordsmen": 20,
+                                                    "witch": 20,
+                                                    "magicTech": 10,
+                                                    "trader": 0,
+                                                    "politician": 0
+                                            
+                                                },
+                        
+                            
+                                                "faction": {
+                                                    "NietzheEmpire": 0,
+                                                    "TradeEmpire": 0,
+                                                    "EliteFamilies": 0,
+                                                    "FreeSiruk": 20,
+                                                    "miners": 20
+                                            
+                                                }
+                                                
+                                                
+                                                
+                                                },
+
+                                                { 
+                                                    "Name": "EpistemeAcademyRuins", 
+                                                    "description": "Amidst the overgrown foliage lie the ruins of the prestigious Academy of Logic and Mathematics, once the pinnacle of intellect in the early Episteme Empire. Echoes of scholarly discourse still linger, haunting reminders of its former glory.",
+                                                    "XCoord": -0.19226074218750003, 
+                                                    "YCoord":     0.5959975522614384, 
+                                                    "image": "assets/epistemeacademyruins.png", 
+                                                    "region": "valleyOfMoon", 
+                                                    "type": "sacredSite", 
+                                                    "stats": 
+                                                    
+                                                    {
+                                                        "population": 0, 
+                                                        "magic": 1500, 
+                                                        "tech": 4000, 
+                                                        "money": 10,
+                                                        "governance": "ungoverned",
+                                                        "military": 0,
+                                                        "resource": "Research",
+                                                        "peaceLevel": "Not Defended"
+                                                    },
+                                                    "species": {
+                                                        "uhkraa": 20,
+                                                        "Lexac": 20,
+                                                        "human": 10,
+                                                        "episteme": 50,
+                                                        "WolfFrye": 5
+                                                    },
+                                                    "classes": {
+                                                        "swordsmen": 20,
+                                                        "witch": 20,
+                                                        "magicTech": 10,
+                                                        "trader": 20,
+                                                        "politician": 20
+                                                
+                                                    },
+                            
+                                
+                                                    "faction": {
+                                                        "NietzheEmpire": 0,
+                                                        "TradeEmpire": 20,
+                                                        "EliteFamilies": 0,
+                                                        "FreeSiruk": 20,
+                                                        "miners": 20
+                                                
+                                                    }
+                                                    
+                                                    
+                                                    
+                                                    },
+
+                                                    { 
+                                                    "Name": "mr DreadFulls Cove", 
+                                                    "description": "Concealed within the folds of secrecy lies the abode of Siruk Dreadull, the enigmatic creator of prophetic comic strips envisioning the fate of Siruk's Valley. From this hidden refuge, his artistry foretells the unfolding destinies of the valley's denizens.",
+                                                    "XCoord": -0.05973815917968751, 
+                                                    "YCoord":     0.2561179214601743, 
+                                                    "image": "assets/dreadfulcove.png", 
+                                                    "region": "valleyOfMoon", 
+                                                    "type": "city", 
+                                                    "stats": 
+                                                    
+                                                    {
+                                                        "population": 0, 
+                                                        "magic": 0, 
+                                                        "tech": 3, 
+                                                        "money": 10,
+                                                        "governance": "ungoverned",
+                                                        "military": 0,
+                                                        "resource": "SirukDreadFulls",
+                                                        "peaceLevel": "Not Defended"
+                                                    },
+                                                    "species": {
+                                                        "uhkraa": 30,
+                                                        "Lexac": 20,
+                                                        "human": 40,
+                                                        "episteme": 0,
+                                                        "WolfFrye": 0
+                                                    },
+                                                    "classes": {
+                                                        "swordsmen": 20,
+                                                        "witch": 0,
+                                                        "magicTech": 10,
+                                                        "trader": 20,
+                                                        "politician": 20
+                                                
+                                                    },
+                            
+                                
+                                                    "faction": {
+                                                        "NietzheEmpire": 2,
+                                                        "TradeEmpire": 60,
+                                                        "EliteFamilies": 20,
+                                                        "FreeSiruk": 20,
+                                                        "miners": 0
+                                                
+                                                    }
+                                                    
+                                                    
+                                                    
+                                                    },
+
+
+
+                                                    { 
+                                                    "Name": "City Of Glimmer", 
+                                                    "description": "At the heart of Siruk's Valley lies the City of Glimmer, its towering skyscrapers wrought from pure gold. Here, immense wealth, power, and opportunity converge amidst a backdrop of looming corruption, shaping the destiny of all who dare to enter.",
+                                                    "XCoord": -0.03158569335937501, 
+                                                    "YCoord":    -0.03845214555104571, 
+                                                    "image": "assets/cityOfGlimmer.png", 
+                                                    "region": "valleyOfMoon", 
+                                                    "type": "city", 
+                                                    "stats": 
+                                                    
+                                                    {
+                                                        "population": 20000, 
+                                                        "magic": 3000, 
+                                                        "tech": 3000, 
+                                                        "money": 3000000,
+                                                        "governance": "Nietzhe",
+                                                        "military": 55000,
+                                                        "resource": "GoldFlake",
+                                                        "peaceLevel": "WellDefended"
+                                                    },
+                                                    "species": {
+                                                        "uhkraa": 0,
+                                                        "Lexac": 10,
+                                                        "human": 80,
+                                                        "episteme": 10,
+                                                        "WolfFrye": 0
+                                                    },
+                                                    "classes": {
+                                                        "swordsmen": 20,
+                                                        "miner": 40,
+                                                        "magicTech": 10,
+                                                        "trader": 20,
+                                                        "politician": 20
+                                                
+                                                    },
+                            
+                                
+                                                    "faction": {
+                                                        "NietzheEmpire": 80,
+                                                        "TradeEmpire": 20,
+                                                        "EliteFamilies": 20,
+                                                        "FreeSiruk": 0,
+                                                        "miners": 20
+                                                
+                                                    }
+                                                    
+                                                    
+                                                    
+                                                    },
+
+
+
+                                                    { 
+                                                        "Name": "Tower Of Nisqath", 
+                                                        "description": "Diatech Nisqath's towering edifice, a beacon of inspiration, surveys the entirety of Siruk's Valley. Crafted through the fusion of magic and technology, it stands as a testament to innovation. All who gaze upon it find renewed determination and vision.",
+                                                        "XCoord": -0.726470947265625, 
+                                                        "YCoord":    -0.729197843309696, 
+                                                        "image": "assets/nisqathTower.jpg", 
+                                                        "region": "valleyOfMoon", 
+                                                        "type": "ruins", 
+                                                        "stats": 
+                                                        
+                                                        {
+                                                            "population": 0, 
+                                                            "magic": 4500, 
+                                                            "tech": 4500, 
+                                                            "money": 10,
+                                                            "governance": "ungoverned",
+                                                            "military": 0,
+                                                            "resource": "MagicTech",
+                                                            "peaceLevel": "Not Defended"
+                                                        },
+                                                        "species": {
+                                                            "uhkraa": 0,
+                                                            "undead": 80,
+                                                            "human": 20,
+                                                            "episteme": 0,
+                                                            "WolfFrye": 0
+                                                        },
+                                                        "classes": {
+                                                            "swordsmen": 20,
+                                                            "witch": 40,
+                                                            "magicTech": 10,
+                                                            "trader": 0,
+                                                            "politician": 0
+                                                    
+                                                        },
+                                
+                                    
+                                                        "faction": {
+                                                            "NietzheEmpire": 0,
+                                                            "TradeEmpire": 20,
+                                                            "EliteFamilies": 20,
+                                                            "FreeSiruk": 20,
+                                                            "miners": 0
+                                                    
+                                                        }
+                                                        
+                                                        
+                                                        
+                                                        },
+
+
+
+                                                        { 
+                                                            "Name": "Still Mind Rock", 
+                                                            "description": "The revered rock of Lockheart Village, a sanctuary for meditation and solace. Its presence offers peace of mind to those who seek it, while the warriors of the fighting club spar beneath its shadow, drawing strength from its tranquil embrace.",
+                                                            "XCoord": 0.006866455078125001, 
+                                                            "YCoord":    -0.4291494296966449, 
+                                                            "image": "assets/stillmindrock.png", 
+                                                            "region": "valleyOfMoon", 
+                                                            "type": "sacredsite", 
+                                                            "stats": 
+                                                            
+                                                            {
+                                                                "population": 200, 
+                                                                "magic": 2000, 
+                                                                "tech": 1500, 
+                                                                "money": 1000,
+                                                                "governance": "Nietzhe",
+                                                                "military": 2000,
+                                                                "resource": "Iron",
+                                                                "peaceLevel": "WellDefended"
+                                                            },
+                                                            "species": {
+                                                                "uhkraa": 0,
+                                                                "undead": 0,
+                                                                "human": 100,
+                                                                "episteme": 10,
+                                                                "WolfFrye": 80
+                                                            },
+                                                            "classes": {
+                                                                "swordsmen": 20,
+                                                                "figher": 40,
+                                                                "magicTech": 10,
+                                                                "trader": 20,
+                                                                "politician": 20
+                                                        
+                                                            },
+                                    
+                                        
+                                                            "faction": {
+                                                                "NietzheEmpire": 100,
+                                                                "TradeEmpire": 0,
+                                                                "EliteFamilies": 0,
+                                                                "FreeSiruk": 0,
+                                                                "miners": 0
+                                                        
+                                                            }
+                                                            
+                                                            
+                                                            
+                                                            }
+
+                                
+
+                            
     
   ]
 }
