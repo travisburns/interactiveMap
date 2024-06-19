@@ -2,7 +2,7 @@
 
 ![interactivemap1](https://github.com/travisburns/interactiveMap/assets/41456635/a5455d6c-1c5a-4d8e-b0e9-5f1f0a5f9a3f)
 
-InteractiveMap is an ambitious web application that combines the power of Leaflet.js and Chart.js to create an immersive and engaging experience for users to explore a fantasy world. The primary objective of this project was to develop a visually appealing and interactive map interface that encourages users to discover and learn about various locations within the fantasy setting.
+InteractiveMap is an ambitious web application that combines the power of Leaflet.js and Chart.js to create an immersive and engaging experience for users to explore a fantasy world. The primary objective of this project was to develop a visually appealing and interactive map interface that encourages users to discover and learn about various locations within the fantasy setting. This singular map is a small section of a entire fantasy world I had made using wonderdraft for singular region maps and photoshop to combine the regions into one massive large world. I plan to make the entire application one large world map using the combination of different regions in the future. However as ambitous as this is, it is a large amount of data, assets, and resources, which requires cloud hosting of images using either Azure or AWS. The entire world map is a representation of the last several years of lore and worldbuilding for a fantasy franchise I am creating in my spare time.  
 
 ## Features
 
