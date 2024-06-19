@@ -24,7 +24,7 @@ InteractiveMap is an ambitious web application that combines the power of Leafle
 
 Throughout the development process, significant effort was put into creating a professional-looking and user-friendly interface. The application's design incorporates fantasy-themed elements to enhance user engagement and immersion. The use of HTML, CSS, and JavaScript, along with the implementation of ES6 classes, ensures a modular and maintainable codebase.
 
-To optimize performance and ensure cross-platform compatibility, Webpack was utilized to create production builds of the project. The application was successfully deployed to a live server, making it accessible to users via a web URL.
+To optimize performance and ensure cross-platform compatibility, Webpack was utilized to create production builds of the project. The application was successfully deployed to a live server, making it accessible to users via a web URL. (At this time, the live server was removed as it was being hosted on my schools server)
 
 ## Challenges and Overcoming Them
 
