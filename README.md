@@ -12,3 +12,8 @@ The development of InteractiveMap presented various challenges, including the in
 
 Project Instructions
 
+npm clone https://github.com/travisburns/interactiveMap.git
+
+within the terminal type npm run, this will initialize the locations.json file which will activate the locations data. 
+
+within the distribution folder(dist), left click on the index.html and hit open with live server 
