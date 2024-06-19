@@ -46,7 +46,7 @@ The development of InteractiveMap presented various challenges, including the in
    ```
 4. Start the development server:
    ```
-   Within the terminal, type `npm run`. This will initialize the `locations.json` file, which will activate the locations data.
+   Within the terminal, type `npm start`. This will initialize the `locations.json` file, which will activate the locations data.
    In the distribution folder (`dist`), right-click on `index.html` and select "Open with Live Server".
    ```
 
