@@ -46,21 +46,12 @@ The development of InteractiveMap presented various challenges, including the in
    ```
 4. Start the development server:
    ```
-   npm run start
-   ```
-5. Open the application in your browser:
-   ```
-   http://localhost:8080
+   Within the terminal, type `npm run`. This will initialize the `locations.json` file, which will activate the locations data.
+   In the distribution folder (`dist`), right-click on `index.html` and select "Open with Live Server".
    ```
 
-## Project Instructions
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/travisburns/interactiveMap.git
-   ```
-2. Within the terminal, type `npm run`. This will initialize the `locations.json` file, which will activate the locations data.
-3. In the distribution folder (`dist`), right-click on `index.html` and select "Open with Live Server".
+
 
 ## Conclusion
 
