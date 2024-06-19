@@ -4,3 +4,6 @@ One of the key features of InteractiveMap is the integration of Chart.js, which 
 Throughout the development process, significant effort was put into creating a professional-looking and user-friendly interface. The application's design incorporates fantasy-themed elements to enhance user engagement and immersion. The use of HTML, CSS, and JavaScript, along with the implementation of ES6 classes, ensures a modular and maintainable codebase.
 To optimize performance and ensure cross-platform compatibility, Webpack was utilized to create production builds of the project. The application was successfully deployed to a live server, making it accessible to users via a web URL.
 The development of InteractiveMap presented various challenges, including the integration of Leaflet.js icons, dynamic data binding with Chart.js, and server-side deployment issues. However, through perseverance and problem-solving skills, these challenges were overcome, resulting in a functional and engaging interactive map experience.
+
+
+![interactivemap1](https://github.com/travisburns/interactiveMap/assets/41456635/a5455d6c-1c5a-4d8e-b0e9-5f1f0a5f9a3f)
