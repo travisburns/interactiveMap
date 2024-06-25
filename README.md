@@ -55,4 +55,4 @@ The development of InteractiveMap presented various challenges, including the in
 
 ## Conclusion
 
-InteractiveMap showcases the developer's proficiency in web development technologies, including HTML, CSS, JavaScript, Leaflet.js, and Chart.js. The project demonstrates the ability to integrate custom APIs, handle data visualization, and create immersive user experiences. It serves as a testament to the developer's growth in technical skills, project management, and problem-solving abilities.
+InteractiveMap showcases skillsets in web development technologies, including HTML, CSS, JavaScript, Leaflet.js, and Chart.js. The project demonstrates the ability to integrate custom APIs, handle data visualization, and create immersive user experiences. 
