@@ -68,7 +68,7 @@ class FantasyMap {
     // a async function used to fetch the data from the local host. 
     async fetchLocationsData() {
         try {
-            const response = await fetch('http://localhost:3000/locations'); //this is supposed to be the citWeb location address to host, however was not able to get it to connect. 
+            const response = await fetch('./locations'); //this is supposed to be the citWeb location address to host, however was not able to get it to connect. 
             // if the data is not found that it should push a error with its status issue
             if (!response.ok) {
                 throw new Error(`Error: ${response.status} - ${response.statusText}`);
