@@ -14,10 +14,8 @@ module.exports = (env, argv) => {
         },
         output: {
             path: path.resolve(__dirname, 'dist'),
-            filename: isProduction ? '[name].[contenthash].js' : '[name].js',
-            assetModuleFilename: 'assets/[name][ext]',
-            clean: true,
-        },
+            filename: 'bundle.js',
+          },
         target: 'web',
         devServer: {
             static: "./dist"
